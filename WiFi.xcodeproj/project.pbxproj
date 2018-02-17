@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADB1E6B3202459A200808E76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB1E6B2202459A200808E76 /* AppDelegate.swift */; };
+		ADB1E6B5202459A200808E76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB1E6B4202459A200808E76 /* ViewController.swift */; };
+		ADB1E6B8202459A200808E76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB1E6B6202459A200808E76 /* Main.storyboard */; };
+		ADB1E6BA202459A200808E76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADB1E6B9202459A200808E76 /* Assets.xcassets */; };
+		ADB1E6BD202459A200808E76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB1E6BB202459A200808E76 /* LaunchScreen.storyboard */; };
+		ADB1E6C7202459B800808E76 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB1E6C6202459B800808E76 /* NetworkExtension.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ADB1E6AF202459A100808E76 /* WiFi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiFi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADB1E6B2202459A200808E76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADB1E6B4202459A200808E76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ADB1E6B7202459A200808E76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADB1E6B9202459A200808E76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADB1E6BC202459A200808E76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADB1E6BE202459A200808E76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADB1E6C4202459B800808E76 /* WiFi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WiFi.entitlements; sourceTree = "<group>"; };
+		ADB1E6C6202459B800808E76 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADB1E6AC202459A100808E76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB1E6C7202459B800808E76 /* NetworkExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADB1E6A6202459A100808E76 = {
+			isa = PBXGroup;
+			children = (
+				ADB1E6B1202459A100808E76 /* WiFi */,
+				ADB1E6B0202459A100808E76 /* Products */,
+				ADB1E6C5202459B800808E76 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ADB1E6B0202459A100808E76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADB1E6AF202459A100808E76 /* WiFi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADB1E6B1202459A100808E76 /* WiFi */ = {
+			isa = PBXGroup;
+			children = (
+				ADB1E6C4202459B800808E76 /* WiFi.entitlements */,
+				ADB1E6B2202459A200808E76 /* AppDelegate.swift */,
+				ADB1E6B4202459A200808E76 /* ViewController.swift */,
+				ADB1E6B6202459A200808E76 /* Main.storyboard */,
+				ADB1E6B9202459A200808E76 /* Assets.xcassets */,
+				ADB1E6BB202459A200808E76 /* LaunchScreen.storyboard */,
+				ADB1E6BE202459A200808E76 /* Info.plist */,
+			);
+			path = WiFi;
+			sourceTree = "<group>";
+		};
+		ADB1E6C5202459B800808E76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADB1E6C6202459B800808E76 /* NetworkExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADB1E6AE202459A100808E76 /* WiFi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADB1E6C1202459A200808E76 /* Build configuration list for PBXNativeTarget "WiFi" */;
+			buildPhases = (
+				ADB1E6AB202459A100808E76 /* Sources */,
+				ADB1E6AC202459A100808E76 /* Frameworks */,
+				ADB1E6AD202459A100808E76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WiFi;
+			productName = WiFi;
+			productReference = ADB1E6AF202459A100808E76 /* WiFi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADB1E6A7202459A100808E76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "sandesh sardar";
+				TargetAttributes = {
+					ADB1E6AE202459A100808E76 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.HotspotConfiguration = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = ADB1E6AA202459A100808E76 /* Build configuration list for PBXProject "WiFi" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADB1E6A6202459A100808E76;
+			productRefGroup = ADB1E6B0202459A100808E76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADB1E6AE202459A100808E76 /* WiFi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADB1E6AD202459A100808E76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB1E6BD202459A200808E76 /* LaunchScreen.storyboard in Resources */,
+				ADB1E6BA202459A200808E76 /* Assets.xcassets in Resources */,
+				ADB1E6B8202459A200808E76 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADB1E6AB202459A100808E76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB1E6B5202459A200808E76 /* ViewController.swift in Sources */,
+				ADB1E6B3202459A200808E76 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ADB1E6B6202459A200808E76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADB1E6B7202459A200808E76 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADB1E6BB202459A200808E76 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADB1E6BC202459A200808E76 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADB1E6BF202459A200808E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADB1E6C0202459A200808E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADB1E6C2202459A200808E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WiFi/WiFi.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69VU96BCPE;
+				INFOPLIST_FILE = WiFi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sss.WiFi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADB1E6C3202459A200808E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WiFi/WiFi.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69VU96BCPE;
+				INFOPLIST_FILE = WiFi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sss.WiFi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADB1E6AA202459A100808E76 /* Build configuration list for PBXProject "WiFi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADB1E6BF202459A200808E76 /* Debug */,
+				ADB1E6C0202459A200808E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADB1E6C1202459A200808E76 /* Build configuration list for PBXNativeTarget "WiFi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADB1E6C2202459A200808E76 /* Debug */,
+				ADB1E6C3202459A200808E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADB1E6A7202459A100808E76 /* Project object */;
+}
